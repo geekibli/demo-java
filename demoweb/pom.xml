@@ -14,7 +14,22 @@
     <description>demoweb</description>
     <properties>
         <java.version>8</java.version>
+        <hazelcast.vertsion>3.6.3</hazelcast.vertsion>
     </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.hazelcast</groupId>
+            <artifactId>hazelcast</artifactId>
+            <version>${hazelcast.vertsion}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hazelcast</groupId>
+            <artifactId>hazelcast-client</artifactId>
+            <version>${hazelcast.vertsion}</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
