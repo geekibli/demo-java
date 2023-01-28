@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<flow>
+    <nodes>
+        <node id="a" class="com.learn.java.ruleengine.ANodeComponent"/>
+        <node id="b" class="com.learn.java.ruleengine.BNodeComponent"/>
+        <node id="c" class="com.learn.java.ruleengine.CNodeComponent"/>
+    </nodes>
+
+    <chain name="chain1">
+        <then value="a,b,c"/>
+    </chain>
+</flow>
