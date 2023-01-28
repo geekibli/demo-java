@@ -9,13 +9,15 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class DemobootApplication {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext context = SpringApplication.run(DemobootApplication.class, args);
-        FlowExecutor flowExecutor = context.getBean(FlowExecutor.class);
-        try {
-            flowExecutor.execute2Resp("chain1");
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+//        ConfigurableApplicationContext context = SpringApplication.run(DemobootApplication.class, args);
+//        FlowExecutor flowExecutor = context.getBean(FlowExecutor.class);
+//        try {
+//            flowExecutor.execute2Resp("chain1");
+//        } catch (Exception e) {
+//            throw new RuntimeException(e);
+//        }
+
+        SpringApplication.run(DemobootApplication.class, args);
     }
 
 }

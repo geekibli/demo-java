@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <flow>
-    <chain id="chain1">
+    <chain name="chain1">
 <!--        <then value="a,b,c"/>-->
         THEN (a,b,c)
     </chain>
